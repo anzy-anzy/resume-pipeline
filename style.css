@@ -24,7 +24,7 @@ body {
 
   /* 🌩️ Beautiful layered background */
   background-image:
-    url('images/cloud-bg.jpg'),
+    url('image/cloud-bg.jpg'),
     radial-gradient(1200px 600px at 80% -10%, rgba(78,166,255,.25), transparent 60%),
     radial-gradient(900px 500px at -10% 110%, rgba(0,212,255,.20), transparent 55%),
     linear-gradient(180deg, #050b1a 0%, #0a1530 60%, #0a1530 100%);
