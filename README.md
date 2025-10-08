@@ -51,11 +51,15 @@ This project demonstrates a **two-stage CI/CD pipeline** using **GitHub** and **
   <img width="1920" height="944" alt="Screenshot (419)" src="https://github.com/user-attachments/assets/8f0ee103-ce6e-41b2-97cc-104d84b37653" />
 
 ### 5. Test the website.
+
+ <img width="1920" height="950" alt="Screenshot (430)" src="https://github.com/user-attachments/assets/8d44c3f9-aac7-47e8-b95b-1e6b0c6e1b80" />
+
 - checking to see if its secured as well.
-  <img width="1920" height="946" alt="Screenshot (429)" src="https://github.com/user-attachments/assets/184d49f2-6c39-43a7-8486-885787c3b4f8" />
+  <img width="1920" height="973" alt="Screenshot (431)" src="https://github.com/user-attachments/assets/370c2147-29d3-4234-bd80-f387a0161a39" />
 
 
----
+
+
 
 ## 🔗 Live Website
 
