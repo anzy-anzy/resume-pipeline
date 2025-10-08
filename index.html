@@ -2,34 +2,125 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Ebsiy Anslem | Cloud & DevOps Engineer</title>
+  <title>EBSIY ANSLEM NDIMONGANG | Cloud & DevOps</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <header>
-    <h1>Ebsiy Anslem</h1>
-    <p class="role">Cloud & DevOps Engineer</p>
-  </header>
+  <div class="page">
+    <!-- Top band -->
+    <header class="topband">
+      <div class="identity">
+        <h1 class="name">EBSIY ANSLEM NDIMONGANG</h1>
+        <p class="role">Cloud & DevOps Engineer • Entrepreneur</p>
+        <p class="email"><a href="mailto:anselmebbsiy@gmail.com">anselmebbsiy@gmail.com</a></p>
+      </div>
+      <div class="avatar-wrap">
+        <!-- Put your photo at images/profile.jpg -->
+        <img class="avatar" src="images/profile.jpg" alt="Portrait of Ebsiy Anslem Ndimongang">
+      </div>
+    </header>
 
-  <section class="about">
-    <h2>About Me</h2>
-    <p>I’m passionate about designing secure, automated cloud infrastructures on AWS. 
-       This website is deployed automatically using AWS CodePipeline and hosted on Amazon S3.</p>
-  </section>
+    <main class="content">
+      <!-- Left column -->
+      <section class="left">
+        <section class="card">
+          <h2>About Me</h2>
+          <p>
+            Hello, I’m transitioning into the cloud space and actively building projects on AWS.
+            I enjoy automating deployments, learning DevOps best practices, and turning ideas into
+            working solutions. This resume site is deployed via CI/CD to S3 and served securely with CloudFront.
+          </p>
+        </section>
 
-  <section class="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Amazon Web Services (AWS)</li>
-      <li>DevOps Tools (Git, Docker, Jenkins)</li>
-      <li>Infrastructure as Code (CloudFormation, Terraform)</li>
-      <li>Linux & Python</li>
-    </ul>
-  </section>
+        <section class="card">
+          <h2>Education</h2>
+          <div class="item">
+            <h3>BSc, Maritime Transport</h3>
+            <div class="meta">University of Bamenda • 2020–2023</div>
+            <p class="desc">Foundational studies in logistics & transport; strong analytical and problem-solving mindset.</p>
+          </div>
+          <div class="item">
+            <h3>AWS Cloud & DevOps Engineer Training</h3>
+            <div class="meta">Cloud Space Academy • Apr 2025 – Present</div>
+            <p class="desc">Hands-on training with AWS, CI/CD, Infrastructure as Code, Linux, and container tooling.</p>
+          </div>
+        </section>
 
-  <footer>
-    <p>📍 Hosted on AWS S3 | Secured with CloudFront HTTPS | © 2025 Ebsiy Anslem</p>
-  </footer>
+        <section class="card">
+          <h2>Experience</h2>
+          <div class="item">
+            <h3>Entrepreneur / Business Owner</h3>
+            <div class="meta">Douala, Cameroon • 2023 – Present</div>
+            <ul class="bullets">
+              <li>Operate small business initiatives; manage finance, customer relationships, and logistics.</li>
+              <li>Apply cloud and automation learnings to streamline simple workflows (docs, files, backups).</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>Projects & Tools</h2>
+          <ul class="badges">
+            <li>AWS (S3, CloudFront, Route53, ACM)</li>
+            <li>CI/CD (CodePipeline, GitHub)</li>
+            <li>IaC (CloudFormation/Terraform)</li>
+            <li>Linux</li>
+            <li>Docker (basics)</li>
+            <li>Git / GitHub</li>
+            <li>Business Operations</li>
+          </ul>
+        </section>
+      </section>
+
+      <!-- Right column -->
+      <aside class="right">
+        <section class="sidecard">
+          <h3>Contact</h3>
+          <ul class="list">
+            <li><strong>Phone:</strong> 678 563 519</li>
+            <li><strong>Location:</strong> Douala, Cameroon</li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ebsiy-anslem440" target="_blank" rel="noopener">linkedin.com/in/ebsiy-anslem440</a></li>
+            <li><strong>GitHub:</strong> <a href="https://lnkd.in/efAGvybP" target="_blank" rel="noopener">lnkd.in/efAGvybP</a></li>
+          </ul>
+        </section>
+
+        <section class="sidecard">
+          <h3>Languages</h3>
+          <ul class="ratings">
+            <li>English <span class="stars" aria-label="5 out of 5">★★★★★</span></li>
+            <li>French <span class="stars" aria-label="2 out of 5">★★☆☆☆</span></li>
+          </ul>
+        </section>
+
+        <section class="sidecard">
+          <h3>Certifications</h3>
+          <ul class="list">
+            <li>DevOps Engineer (in progress)</li>
+          </ul>
+        </section>
+
+        <section class="sidecard">
+          <h3>Focus Areas</h3>
+          <ul class="list">
+            <li>Automation & CI/CD</li>
+            <li>Secure Cloud Hosting</li>
+            <li>Infrastructure as Code</li>
+            <li>Continuous Learning</li>
+          </ul>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="foot">
+      <p>© <span id="year"></span> Ebsiy Anslem Ndimongang • Hosted on AWS S3 • Secured by CloudFront</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
