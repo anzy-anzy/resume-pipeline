@@ -1,0 +1,51 @@
+/* Base layout */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+  color: #222;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 60px 20px 30px;
+  background: #0f172a;
+  color: white;
+}
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+header .role {
+  font-size: 1.2rem;
+  color: #38bdf8;
+}
+
+/* Sections */
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+section h2 {
+  color: #2563eb;
+  border-bottom: 2px solid #93c5fd;
+  padding-bottom: 6px;
+}
+section ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #0f172a;
+  color: #e2e8f0;
+  font-size: 0.9rem;
+}
